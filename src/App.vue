@@ -2,8 +2,8 @@
     <div>
         <UpperNavbar />
         <hr class="text-gray-200">
-        <LowerNavbar class="md:block"/>
-        <hr class="text-gray-200 md:block">
+        <LowerNavbar/>
+        <hr class="text-gray-200 hidden md:block">
     </div>
     <router-view></router-view>
 </template>

@@ -1,6 +1,6 @@
 <template>
-    <div class="justify-between my-8 flex">
-        <div v-for="item, index in data" :key="index" class="p-6 metric-shadow border border-gray-200 rounded-lg">
+    <div class="justify-between my-8 inline md:flex">
+        <div v-for="item, index in data" :key="index" class="mx-4 md:mx-0 mb-5 md:mb-0 px-4 py-5 md:p-6 metric-shadow border border-gray-200 rounded-lg">
             <div class="flex justify-between mb-6">
                 <p class="text-base font-medium">{{item.title}}</p>
                 <i data-feather="more-vertical" height="20px" width="20px" class="text-gray-500"></i>

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between items-baseline mb-4 mx-28">
+    <div class="hidden md:flex justify-between items-baseline mb-4 mx-28">
         <div class="space-x-7 mt-5">
             <router-link :to="item.link" class="text-gray-700 font-medium" v-for="item, index in data" :key="index">{{item.title}}</router-link>
         </div>
