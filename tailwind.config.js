@@ -11,7 +11,7 @@ module.exports = {
       'primary-50': '#F9F5FF',
       'white': '#fff',
       'gray-200': '#EAECF0',
-      'd0d5dd': '#D0D5DD',
+      'gray-300': '#D0D5DD',
       'gray-50': '#F9FAFB',
       'gray-200': '#EAECF0',
       'gray-100': '#F2F4F7',

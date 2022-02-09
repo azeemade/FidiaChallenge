@@ -6,7 +6,7 @@
                 <p class="text-gray-500">Track, manage and forecast your customers and orders.</p>
             </div>
             <div class="flex space-x-3">
-                <button class="h-10 flex px-4 py-2 items-center text-gray-700 text-sm border border-d0d5dd rounded-lg btn-shadow hover:text-gray-700 hover:bg-gray-200">
+                <button class="h-10 flex px-4 py-2 items-center text-gray-700 text-sm border border-gray-300 rounded-lg btn-shadow hover:text-gray-700 hover:bg-gray-200">
                     <i data-feather="upload-cloud" height="16px" width="16px" class="text-gray-700 mr-2 "></i>
                     Import
                 </button>
