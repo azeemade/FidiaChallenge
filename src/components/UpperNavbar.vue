@@ -8,7 +8,7 @@
         </div>
         <div class="space-x-6 flex">
             <button class="flex px-4 py-2 items-center text-gray-700 text-sm border border-d0d5dd rounded-lg btn-shadow hover:text-gray-700 hover:bg-gray-200">
-                <i data-feather="zap" height="20px" width="20px" class="text-gray-700 text-xl mr-2"></i>
+                <i data-feather="zap" height="16px" width="16px" class="text-gray-700 text-xl mr-2"></i>
                 Upgrade now
             </button>
             <button class="rounded-full p-1 focus:shadow-outline hover:bg-gray-200">

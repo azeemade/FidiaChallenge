@@ -4,21 +4,21 @@
             <div class="flex space-x-3">
                 <button class="h-10 flex px-4 py-2 items-center text-primary-700 bg-primary-50 text-sm rounded-lg focus:shadow-outline hover:bg-indigo-800">
                     All time
-                    <i data-feather="x" height="20px" width="20px" class="text-primary-700 ml-2"></i>
+                    <i data-feather="x" height="10px" width="10px" class="text-primary-700 ml-2"></i>
                 </button>
                 <button class="h-10 flex px-4 py-2 items-center text-primary-700 bg-primary-50 text-sm rounded-lg focus:shadow-outline hover:bg-indigo-800">
                     US, AU, +mb-4
-                    <i data-feather="x" height="20px" width="20px" class="text-primary-700 ml-2"></i>
+                    <i data-feather="x" height="10px" width="10px" class="text-primary-700 ml-2"></i>
                 </button>
                 <button class="h-10 flex px-4 py-2 items-center text-gray-700 text-sm border border-d0d5dd rounded-lg btn-shadow hover:text-gray-700 hover:bg-gray-200">
-                    <!-- <i data-feather="Filters lines" height="20px" width="20px" class="text-gray-700 text-sm mr-2"></i> -->
+                    <!-- <i data-feather="filters lines" height="16px" width="16px" class="text-gray-700 text-sm mr-2"></i> -->
                     More filters
                 </button>
             </div>
             <Searchbar />
         </div>
 
-        <table class="w-full mt-7">
+        <table class="w-full mt-7 table-shadow mb-5">
             <tr class="text-xs font-medium text-gray-500">
                 <th class="py-3">
                     <i data-feather="minus" class="text-primary-50 p-2 border border-primary-50 rounded-md"></i>
@@ -62,8 +62,24 @@
                     <p class="mb-0 text-gray-900 text-sm">{{item.about1}}</p>
                     <p class="mb-0 text-gray-500 text-sm">{{item.about2}}</p></td>
                 <td class="flex">
-                    <i data-feather="trash-2" height="20px" width="20px" class="text-gray-500"></i>
-                    <i data-feather="edit-2" height="20px" width="20px" class="text-gray-500 ml-2"></i>
+                    <i data-feather="trash-2" height="16px" width="16px" class="text-gray-500"></i>
+                    <i data-feather="edit-2" height="16px" width="16px" class="text-gray-500 ml-2"></i>
+                </td>
+            </tr>
+            <tr class="border-t border-gray-200">
+                <td colspan="4">
+                    <div class="flex space-x-1">
+                        <button class="h-10 flex px-4 py-2 items-center text-gray-700 text-sm border border-d0d5dd rounded-lg btn-shadow hover:text-gray-700 hover:bg-gray-200">
+                            Previous
+                        </button>
+                        <button class="h-10 flex px-4 py-2 items-center text-gray-700 text-sm border border-d0d5dd rounded-lg btn-shadow hover:text-gray-700 hover:bg-gray-200">
+                            Next
+                        </button>
+                    </div>
+                    
+                </td>
+                <td colspan="3" class="text-gray-700 text-right text-sm">
+                    Page 1 of 10
                 </td>
             </tr>
         </table>
@@ -198,3 +214,10 @@ export default {
     }
 }
 </script>
+<style>
+    .table-shadow{
+        box-shadow: 0px 2px 4px -2px #1018280F;
+        box-shadow: 0px 4px 8px -2px #1018281A;
+
+    }
+</style>
