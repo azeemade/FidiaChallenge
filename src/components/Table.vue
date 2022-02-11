@@ -94,7 +94,7 @@
             </table>
             <div class="mt-4 inline md:hidden">
                 <hr class="text-gray-200 mx-4">
-                <div class="mb-6 flex justify-between mt-4">
+                <div class="mb-6 flex mx-7 justify-between mt-4">
                     <button class="btn-shadow hover:text-gray-700 hover:bg-gray-200">
                         <i data-feather="arrow-left" height="16px" width="16px" class="text-gray-500"></i>
                     </button>

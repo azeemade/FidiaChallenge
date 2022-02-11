@@ -24,7 +24,7 @@
     </div>
     <div class="flex md:hidden justify-between m-4 align-center">
         <Logo />
-        <button class="rounded-full p-1 focus:shadow-outline hover:bg-gray-200" @click="open == false ? open = true : open = false">
+        <button class="p-1 focus:shadow-outline hover:bg-gray-200 rounded-md" @click="open == false ? open = true : open = false">
             <i data-feather="menu" height="20px" width="20px" class="text-xl text-gray-500"></i>
         </button>
     </div>

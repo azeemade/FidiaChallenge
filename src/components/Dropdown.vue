@@ -1,11 +1,11 @@
 <template>
     <div>
-        <ul>
+        <ul class="px-6 space-y-1">
             <li v-for="item, index in data" :key="index">
-                <router-link :to="item.link" class="text-gray-700 font-medium">{{item.title}}</router-link>
-                <ul>
+                <router-link :to="item.link" class="text-gray-700 font-medium text-base text-opacity-80">{{item.title}}</router-link>
+                <ul class="space-y-1 mb-4 mt-2">
                     <li v-for="foo, index in item.sub" :key="index">
-                        <router-link :to="foo.link" class="text-gray-700 font-medium">{{foo.title}}</router-link>
+                        <router-link :to="foo.link" class="text-gray-700 text-sm text-opacity-80">{{foo.title}}</router-link>
                     </li>
                 </ul>
             </li>
