@@ -2,6 +2,8 @@
   "name": "Fidia",
   "version": "0.1.0",
   "private": true,
+  "author": "Azeem Adenuga (http://azeemade.netlify.com)",
+  "homepage": "https://nervous-bose-3d935b.netlify.app/"
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
