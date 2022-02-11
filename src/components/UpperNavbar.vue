@@ -24,19 +24,22 @@
     </div>
     <div class="flex md:hidden justify-between m-4 align-center">
         <Logo />
-        <button class="rounded-full p-1 focus:shadow-outline hover:bg-gray-200">
+        <button class="rounded-full p-1 focus:shadow-outline hover:bg-gray-200" @click="open == false ? open = true : open = false">
             <i data-feather="menu" height="20px" width="20px" class="text-xl text-gray-500"></i>
         </button>
     </div>
+    <Dropdown v-if="open == true"/>
 </template>
 <script>
 import Logo from "./Logo.vue";
 import feather from 'feather-icons'
+import Dropdown from "./Dropdown.vue";
 export default {
     name: "UpperNavbar",
-    components: { Logo },
+    components: { Logo, Dropdown },
     data(){
         return{
+            open: false,
             data: [
                 {
                     link: '/Other',
